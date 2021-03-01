@@ -1,0 +1,83 @@
+li{
+    list-style-type: none;
+    margin: 0 12vw;
+    font-size: 5vh;
+    margin-top: 8px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+    font-family: impact;
+    
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #FFEFD5;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  body{
+    background-image: url("https://media.afar.com/uploads/images/post_images/images/7sLH54wVEy/original_48b301bafe56dbf192ac1316ec4d4348.jpg?1544473465");
+   background-color: #000000;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+  }
+  a:hover{ 
+    background-color: #FFE4B5;
+    border-radius: 3px;
+  }
+  p{
+    color: gray;
+    padding: 6px;
+    margin: 3px;
+  }
+  h1{
+    color: white;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #87CEFA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #00BFFF;
+  }
+  
+  .container {
+    border-radius: 10px;
+    background-color: #FFEFD5;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    
+  }
